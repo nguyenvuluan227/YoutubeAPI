@@ -20,7 +20,7 @@ public class RetrofitInit {
     }
     public static RequestAPI initApi(){
         if (mretrofit == null){
-            mretrofit = getInstance("https://khoapham.vn/KhoaPhamTraining/json/tien/");
+            mretrofit = getInstance("https://www.googleapis.com/youtube/v3/");
         }
         return mretrofit.create(RequestAPI.class);
     }
